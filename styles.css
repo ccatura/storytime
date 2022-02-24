@@ -25,6 +25,14 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;
@@ -33,10 +41,7 @@ a {
     text-align: center;
 }
 
-.login,
-.new-actions,
-.story-header,
-.story-section {
+.info-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +86,8 @@ a {
 
 .user2 {
     color: blue;
+}
+
+.user3 {
+    color: orange;
 }
